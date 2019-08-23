@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "bootstrap": "^4.3.1",
+    "history": "^4.9.0",
+    "jquery": "^1.9.1",
+    "parcel-bundler": "^1.12.3",
+    "popper.js": "^1.14.7",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "react-bootstrap": "^1.0.0-beta.10"
+  }
+}
